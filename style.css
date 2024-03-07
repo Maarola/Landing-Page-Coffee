@@ -4,6 +4,7 @@
 html{
     font-family: inter, sans-serif;
     font-weight: 500;
+    scroll-behavior: smooth;
 }
 body{
     background-color: #241813 ;
@@ -36,7 +37,7 @@ nav ul {
 }
 
 .github{
-    color: #fff2e7;
+    color: #eaa80e;
     font-weight: 600;
 }
 
@@ -101,10 +102,11 @@ hr{
     max-width: 45%;
     column-count: 4;
     column-gap: 6.8rem;
-    margin: -1rem;
+    margin: -2rem;
 }
 
 .div__img figure img {
+    padding-top: 1rem;
     width: 340%;
     border-radius: 0.5rem;
 }
@@ -161,8 +163,8 @@ button{
     padding: 0rem 20rem;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    gap: 1rem;
+    justify-content: center;
+    gap: 3rem;
     margin-top: 2rem;
 }
 

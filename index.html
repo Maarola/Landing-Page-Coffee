@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caffeine ☕</title>
+    <title>Caffeine</title>
     <meta nome="description" content="Explore dezenas de variações da bebida favorita entre os devs ao redor mundo!">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="shortcut icon" href="assets/favicon.ico" />
 </head>
 <body>
-    <header>
+    <header id="home">
         <nav>
             <span>Caffeine</span>
             <ul class="lista__nav">
@@ -18,12 +19,12 @@
                 <li><a href="#novidades">Novidades</a></li>
                 <li><a href="#melhoravaliadas">Melhor avaliadas</a></li>
             </ul>
-            <a class="gitgub" href="#">Github</a>
+            <a class="github" href="#">Github</a>
         </nav>
     </header>
     <main>
         <div class="background__hero">
-            <section class="section__hero">
+            <section id="novidades" class="section__hero">
                 <header class="hero">
                     <span class="span__destaque marrom">novidades</span>
                     <h1>Encontre a receita perfeita!</h1>
@@ -47,11 +48,13 @@
             </section>
         </div>
         <section class="section__button">
-            <button>
-                <img src="assets/image__btn.png" alt="">
-            </button>
+            <a href="#receitas">
+                <button>
+                    <img src="assets/image__btn.png" alt="">
+                </button>
+            </a>
         </section>
-        <section class="section__receitas">
+        <section id="receitas" class="section__receitas">
             <header>
                 <span class="span__destaque marrom">Receitas</span>
                 <h2>Confira as últimas receitas</h2>
@@ -72,48 +75,7 @@
                         <span>Joyce Macedo</span>
                     </div>
                 </div>
-                <div class="card__receitas">
-                    <header>
-                        <div class="card__detalhes">
-                            <span class="span__destaque marrom"> novo</span>
-                            <h3 class="receita__titulo">Cappuccino</h3>
-                        </div>
-                        <p class="receitar__avaliacao">Extraordinário · 4/4</p>
-                    </header>
-                    <p class="p__descicao">Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
-                    <div class="receitas__autor">
-                        <img src="assets/usuario1.jpg" alt="">
-                        <span>Joyce Macedo</span>
-                    </div>
-                </div>
-                <div class="card__receitas">
-                    <header>
-                        <div class="card__detalhes">
-                            <span class="span__destaque marrom"> novo</span>
-                            <h3 class="receita__titulo">Cappuccino</h3>
-                        </div>
-                        <p class="receitar__avaliacao">Extraordinário · 4/4</p>
-                    </header>
-                    <p class="p__descicao">Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
-                    <div class="receitas__autor">
-                        <img src="assets/usuario1.jpg" alt="">
-                        <span>Joyce Macedo</span>
-                    </div>
-                </div>
-                <div class="card__receitas">
-                    <header>
-                        <div class="card__detalhes">
-                            <span class="span__destaque marrom"> novo</span>
-                            <h3 class="receita__titulo">Cappuccino</h3>
-                        </div>
-                        <p class="receitar__avaliacao">Extraordinário · 4/4</p>
-                    </header>
-                    <p class="p__descicao">Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
-                    <div class="receitas__autor">
-                        <img src="assets/usuario1.jpg" alt="">
-                        <span>Joyce Macedo</span>
-                    </div>
-                </div>
+
             </div>
         </section>
     </main>
